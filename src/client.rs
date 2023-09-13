@@ -10,7 +10,7 @@ use std::time::Duration;
 use tokio::runtime::Runtime;
 use tokio::time::sleep;
 
-const API_URL: &str = "https://api.openai.com/v1/chat/completions";
+const API_URL: &str = "https://api.openai-sb.com/v1/chat/completions";
 
 #[derive(Debug)]
 pub struct ChatGptClient {
